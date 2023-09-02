@@ -24,6 +24,7 @@ span.option {
   font-size: 200px;
   border-radius: 10px;
   cursor: pointer;
+  user-select: none;
 }
 
 .result {
