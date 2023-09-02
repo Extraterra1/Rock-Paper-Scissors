@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Basico", sans-serif;
+}
+button {
+  padding: 8px 16px;
+}
+
+.selected {
+  border: 10px solid rgb(106, 155, 32);
+}
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+
+  margin-top: 20px;
+}
+span.option {
+  font-size: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.result {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.scores {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+.scoreItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.scoreItem h2 {
+  letter-spacing: 10px;
+  font-size: 2em;
+}
+
+.playerScore,
+.cpuScore {
+  border: 5px solid black;
+  padding: 50px 110px;
+  font-size: 200px;
+  font-weight: 900;
+  width: 380px;
+  text-align: center;
+}
